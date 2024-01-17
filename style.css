@@ -61,8 +61,8 @@ nav{
 .nav-middle .search-box input{
     width:600px;
     height: 40px;
-    border:0;
-    outline:0;
+    border:none;
+    outline:none;
     font-size: 1.5rem;
     background: transparent;
     margin-left:20px;
@@ -80,20 +80,27 @@ nav{
     width: 60px;
     height: 40px;
     background-color: #f8f8f8;
-    border:1px solid #ccc;
+    border:0.12rem solid #ccc;
+    border-left: none;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     outline: none;
     fill: currentcolor;
     cursor: pointer;
     padding-top: 6px;
-    padding-bottom: 8px;
+    padding-bottom: 6px;
+}
+
+.search-img:hover{
+    background-color: #f6e9e9;
 }
 .search-img i {
     color: #6b6969;
     font-size: 1.3rem;
     font-weight: 700;
 }
+
+
 .voice-search{
     height: 40px;
     width:40px;
@@ -107,6 +114,10 @@ nav{
 }
 .nav-middle .mic-icon{
     width:18px
+}
+
+.voice-search:hover{
+    background-color: #f6cccc;
 }
 
 /* -------------------sidebar------- */
